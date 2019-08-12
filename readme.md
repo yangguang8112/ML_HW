@@ -1,2 +1,2 @@
 ## This is a homework of ML course
-HW1 ing...
+# HW1
