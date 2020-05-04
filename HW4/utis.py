@@ -6,6 +6,7 @@ import pandas as pd
 import torch.optim as optim
 import torch.nn.functional as F
 
+data_path_prefix = '../data/hw4/'
 path_prefix = './'
 
 def load_training_data(path='training_label.txt'):

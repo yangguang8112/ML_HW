@@ -19,9 +19,9 @@ import torch
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # 處理好各個 data 的路徑
-train_with_label = os.path.join(path_prefix, 'training_label.txt')
-train_no_label = os.path.join(path_prefix, 'training_nolabel.txt')
-testing_data = os.path.join(path_prefix, 'testing_data.txt')
+train_with_label = os.path.join(data_path_prefix, 'training_label.txt')
+train_no_label = os.path.join(data_path_prefix, 'training_nolabel.txt')
+testing_data = os.path.join(data_path_prefix, 'testing_data.txt')
 
 w2v_path = os.path.join(path_prefix, 'w2v_all.model') # 處理 word to vec model 的路徑
 
